@@ -1,9 +1,9 @@
 # TODO
-[] poetry.toml
-[] Enforce types (mypy)
-[] Formatting (black)
-[] Linting (ruff)
-[] Setup tests (pytest)
+[ ] setup uv (pip, pipx, venv)
+[ ] Enforce types (mypy)
+[ ] Formatting (black)
+[ ] Linting (ruff)
+[ ] Setup tests (pytest)
 
 # DSA
 1. Create the data structure
@@ -53,8 +53,21 @@ Pop = O(1)
 Peek = O(1)
 
 ## Linked Lists
+List Node contains value, next, and previous pointers depending on if the data structure is a singly or doubly linked list
+
+Iterating through requires the use of a while loop until the current pointer becomes null
+
+Accessing any random element is O(n) while for an array is O(1)
+
+But removing or inserting in the middle of a linked list is O(1) while for an array is O(n) because it requires shifting the elements to the right. However it still requires finding the random element which is O(n) 
 
 ### Queues
+
+They follow FIFO - First In, First Out
+
+Enqueue (Add to the end) and Dequeue (Remove from the beginning)
+
+
 
 # Python
 
