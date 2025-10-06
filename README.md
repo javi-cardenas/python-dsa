@@ -5,6 +5,28 @@
 [ ] Linting (ruff)
 [ ] Setup tests (pytest)
 
+# uv
+uv is an alternative package manager to pip.
+
+```sh
+brew install uv
+```
+
+ruff is a linter and pytest is unit tester that will be used across all python projects
+```sh
+uv tool install ruff pytest
+```
+
+```sh
+uv init
+```
+
+Similiar to npm in Node.js
+```sh
+uv add requests
+uv run main.py
+```
+
 # DSA
 1. Create the data structure
 2. Read and Write
