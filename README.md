@@ -1,8 +1,8 @@
 # TODO
-[ ] setup uv (pip, pipx, venv)
+[x] setup uv (pip, pipx, venv)
 [ ] Enforce types (mypy)
-[ ] Formatting (black)
-[ ] Linting (ruff)
+[x] Linting (ruff check .)
+[x] Formatting (ruff format .)
 [ ] Setup tests (pytest)
 
 # uv
